@@ -1,0 +1,3 @@
+creation_rules:
+  - kms: projects/temporary-proj-428009/locations/global/keyRings/my-key-ring/cryptoKeys/my-key
+

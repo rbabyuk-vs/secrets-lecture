@@ -1,0 +1,15 @@
+db_password: ENC[AES256_GCM,data:1PGKXjy7/fjC/yORrz3TLT7K8z9Eog==,iv:kruKS6ul6Mh5WcsigjLlJoX9DpY0xUiBGfKfKLbxG7o=,tag:+VVyGiipOcWgpueZC3tqGg==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+        - resource_id: projects/temporary-proj-428009/locations/global/keyRings/my-key-ring/cryptoKeys/my-key
+          created_at: "2024-07-02T08:16:05Z"
+          enc: CiQAPvyerW94lZaNdVP8i0px0bMl4iRB8yy+X3XRyS7PisLC3gMSSQAlbzHx6JgFcXV4rDSdkWsZY3KRBOfB56OOQIiOhvw6RkCtKEjSSLadue4W9S8HKBeaxEGbvRSEkKcqSE3pYNHOVJtTUW3U0mI=
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2024-07-02T08:16:05Z"
+    mac: ENC[AES256_GCM,data:kwTB+N8XEfrU7a+D7P7lvs9VSrA1651+mjkQD3ZTwnLI238F4Q8CjH0XCOOCmsryDPPihXNOfYKl11/pbiVlY5B3l2lfNn9ViH3qnnkYEafwfjasuYEZfs/D0LquVaoqFoxL/bwbn3IM7j4eXG2+CAxbu9/bqAwMiAWR0h4AKLE=,iv:t8N51DZdfpWmOmt+PPOXE2sf5MYEajtKcHz0aLGVUm8=,tag:xMvFaJPasOpy6dQmbYN3pg==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.8.1
